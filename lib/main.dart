@@ -86,7 +86,7 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                   SizedBox(height: 20),
                   
-                  // Input Username dengan border tebal
+                 
                   TextField(
                     controller: _usernameController,
                     style: TextStyle(color: Colors.white), // Set text color to white
@@ -106,7 +106,7 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                   SizedBox(height: 10),
                   
-                  // Input Password dengan border tebal
+                
                   TextField(
                     controller: _passwordController,
                     style: TextStyle(color: Colors.white), // Set text color to white
@@ -127,7 +127,7 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                   SizedBox(height: 20),
 
-                  // Tombol Login
+                
                   SizedBox(
                     width: double.infinity, // Mengatur lebar tombol agar 100% sesuai lebar kolom
                     child: ElevatedButton(
