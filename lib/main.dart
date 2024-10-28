@@ -78,7 +78,7 @@ class _LoginPageState extends State<LoginPage> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  // Icon atau logo
+                  
                   Icon(
                     Icons.account_circle,
                     size: 100,
@@ -89,16 +89,16 @@ class _LoginPageState extends State<LoginPage> {
                  
                   TextField(
                     controller: _usernameController,
-                    style: TextStyle(color: Colors.white), // Set text color to white
+                    style: TextStyle(color: Colors.white), 
                     decoration: InputDecoration(
                       labelText: 'Username',
                       prefixIcon: Icon(Icons.person, color: Colors.white),
                       enabledBorder: OutlineInputBorder(
-                        borderSide: BorderSide(color: Colors.white, width: 2), // Border tebal
+                        borderSide: BorderSide(color: Colors.white, width: 2), 
                         borderRadius: BorderRadius.circular(10),
                       ),
                       focusedBorder: OutlineInputBorder(
-                        borderSide: BorderSide(color: Colors.white, width: 3), // Border lebih tebal saat fokus
+                        borderSide: BorderSide(color: Colors.white, width: 3), 
                         borderRadius: BorderRadius.circular(10),
                       ),
                       labelStyle: TextStyle(color: Colors.white),
@@ -109,16 +109,16 @@ class _LoginPageState extends State<LoginPage> {
                 
                   TextField(
                     controller: _passwordController,
-                    style: TextStyle(color: Colors.white), // Set text color to white
+                    style: TextStyle(color: Colors.white), 
                     decoration: InputDecoration(
                       labelText: 'Password',
                       prefixIcon: Icon(Icons.lock, color: Colors.white),
                       enabledBorder: OutlineInputBorder(
-                        borderSide: BorderSide(color: Colors.white, width: 2), // Border tebal
+                        borderSide: BorderSide(color: Colors.white, width: 2), 
                         borderRadius: BorderRadius.circular(10),
                       ),
                       focusedBorder: OutlineInputBorder(
-                        borderSide: BorderSide(color: Colors.white, width: 3), // Border lebih tebal saat fokus
+                        borderSide: BorderSide(color: Colors.white, width: 3), 
                         borderRadius: BorderRadius.circular(10),
                       ),
                       labelStyle: TextStyle(color: Colors.white),
@@ -129,7 +129,7 @@ class _LoginPageState extends State<LoginPage> {
 
                 
                   SizedBox(
-                    width: double.infinity, // Mengatur lebar tombol agar 100% sesuai lebar kolom
+                    width: double.infinity, 
                     child: ElevatedButton(
                       onPressed: _login,
                       style: ElevatedButton.styleFrom(
